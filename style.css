@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+.sidebar{
+    background-color:black;
+   width: 434px;
+   font-family: "Fira Sans", sans-serif;
+   height: 100vh;
+}
+.sidebar nav{
+   padding:35px;
+}
+.sidebar nav li{
+   list-style-type:none;
+   font-size: 30px;
+   padding: 33px 0;
+   
+
+}
+.sidebar nav li a{
+
+   color: white;
+   
+}
+
+/* #navbar{
+    display: flex;
+    align-items: center;
+    position:absolute;
+    left: 530px;
+    top:0px;
+}
+#navbar ul{
+    display:flex;
+    text-align: left;
+    
+}
+
+#navbar::before{
+    content:"";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    opacity:0.7;
+}
+#navbar ul li{
+    
+    list-style:none;
+    font-size: 1.3rem;
+
+}
+#navbar ul li a{
+    color:white;
+    display: block;
+    padding: 3px 22px;
+    border-radius:20px;
+    text-decoration:underline;
+}
+#navbar ul li a:hover{
+    color:black;
+    background-color:white;
+} */
+
+.main{
+    
+    width: 90vw;
+}
+.container{
+    display: flex;
+    
+}
+.infoContainer{
+
+    height: 64vh;
+    width: 74vw;
+    display: flex;
+    margin: 34px auto;
+    justify-content: space-around;
+}
+.devPic img{
+    border-radius: 258px;
+    height: 58vh;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Source Code Pro", monospace;
+
+}
+.hello{
+    font-size: 55px;
+
+}
+.name{
+font-size: 50px;
+font-weight: bold;
+font-family: "Fira Sans", sans-serif;
+}
+.about{
+    font-size: 30px;
+
+}
+.aboutmore{
+    font-family: "Fira Sans", sans-serif;
+    margin-top: 23px;
+    
+
+}
+.buttons{
+    margin-top:34px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color:red;
+    font-weight:bold ;
+    font-size: 15px;
+    margin:0 3px ; 
+    cursor: pointer;
+
+
+}
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin:12px 0 ;
+
+    
+}
+.btn:hover{
+    
+background-color: white;
+color:red;
+}
+.contactform {
+    padding: 0 223px;
+    margin-top: -15px;
+    font-family: "Fira Sans", sans-serif;
+}
+ .contactform h1 {
+    font-family: "Source Code Pro", monospace;
+    padding: 12px 0;
+    padding-right: 450px;
+    width: 20vw;
+     
+} 
+
+.contactform form div {
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp {
+    font-size: 11px;
+    color: white;
+    margin: 0 5px;
+    padding-top: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+
+}
+
+.main1 {
+    padding: 0 750px;
+    padding-top: 11px;
+    margin: 0 -308px;
+    width: 70vw;
+}
+p {
+    display: flex;
+    padding: 0 486px;
+    padding-top: 21px;
+
+}
+.flex {
+    display: flex;
+    padding: 50px;
+}
+
+.logo {
+    margin: 15px 40px;
+    padding: 20px 0px;
+}
+
+.logo li {
+    list-style: none;
+}
+.contact{
+    text-align: center;
+    margin-top:15px ;
+}
+.btn{
+    padding:5px 5px;
+    border-radius: 8px;
+    background-color: brown;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color:grey;
+}
+
+    
+.about1{
+    margin-top: 136px;
+    margin-left: 187px;
+}
+.pic img{
+margin-top: 50px;
+   height: 50vh;
+   margin-left: 110px;
+   border-radius: 104px;
+
+}
+.intro{
+
+   font-size: 25px;
+   padding: 10px;
+}  
+.h1{
+margin-top: 20px;
+margin-left: 20px;
+}
+.about2{
+margin-top: 136px;
+margin-left: 187px;
+}
+.about2 h1{
+    
+    margin-left: 350px;
+
+}
+.about2 p{
+    padding: 20px 26px;
+    margin: 60px;
+}
+.about2 button{
+    padding:8px 14px;
+border-radius: 8px;
+background-color: brown;
+cursor: pointer;
+color: white;
+margin-left: 361px;
+
+}
+.about2 button:hover{
+    background-color: grey;
+}
+ @media (max-width:1318px){
+    *{
+    background-color: rgb(194, 149, 149);
+    }
+    .sidebar{
+        transform: translate(-443px , 0px);
+        position:absolute;
+    }
+} 
